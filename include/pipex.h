@@ -6,7 +6,7 @@
 /*   By: ebarguil <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/17 17:10:53 by ebarguil          #+#    #+#             */
-/*   Updated: 2021/12/18 20:37:05 by ebarguil         ###   ########.fr       */
+/*   Updated: 2021/12/20 10:18:36 by ebarguil         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@
 # include <sys/types.h>
 # include <sys/stat.h>
 # include <sys/wait.h>
-# include "Libft/libft.h"
+# include "../Libft/libft.h"
 
 # define RED "\033[1;31m"
 # define GREEN "\033[1;32m"

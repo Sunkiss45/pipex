@@ -6,7 +6,7 @@
 #    By: ebarguil <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/11/29 16:06:27 by ebarguil          #+#    #+#              #
-#    Updated: 2021/12/18 21:52:24 by ebarguil         ###   ########.fr        #
+#    Updated: 2021/12/20 10:15:41 by ebarguil         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,8 +14,8 @@ NAME	=	pipex
 
 LIB		=	-L ./Libft -lft
 
-SRC		=	pipex.c \
-			get_path.c \
+SRC		=	srcs/pipex.c \
+			srcs/get_path.c \
 
 OBJ		=	$(SRC:.c=.o)
 

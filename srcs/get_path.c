@@ -6,11 +6,11 @@
 /*   By: ebarguil <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/18 18:00:11 by ebarguil          #+#    #+#             */
-/*   Updated: 2021/12/18 21:49:50 by ebarguil         ###   ########.fr       */
+/*   Updated: 2021/12/20 10:17:23 by ebarguil         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "pipex.h"
+#include "../include/pipex.h"
 
 static int	path_check_exe1(t_pip *p)
 {

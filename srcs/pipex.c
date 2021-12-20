@@ -6,11 +6,11 @@
 /*   By: ebarguil <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/17 17:06:24 by ebarguil          #+#    #+#             */
-/*   Updated: 2021/12/18 21:49:41 by ebarguil         ###   ########.fr       */
+/*   Updated: 2021/12/20 10:17:10 by ebarguil         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "pipex.h"
+#include "../include/pipex.h"
 
 int	ft_free(t_pip *p, int x)
 {
