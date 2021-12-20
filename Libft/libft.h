@@ -6,7 +6,7 @@
 /*   By: ebarguil <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/29 12:50:54 by ebarguil          #+#    #+#             */
-/*   Updated: 2021/12/18 17:13:13 by ebarguil         ###   ########.fr       */
+/*   Updated: 2021/12/20 10:37:32 by ebarguil         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,21 +31,47 @@
 
 # define BUFFER_SIZE 1024
 
-int		ft_strlen(char *s);
+/*
+ * === ft_put === *
+ */
 
 void	ft_putchar_fd(char c, int fd);
 void	ft_putnbr_fd(int n, int fd);
 
-char	*ft_strjoin_lib(char *s1, char *s2);
+/*
+ * === ft_split === *
+ */
 
 char	**ft_split(char *str, char *charset);
 char	**ft_split_add(char *str, char *charset);
 
-int		get_next_line(int fd, char **line);
-int		ft_check_n(char *str);
-char	*ft_saver(char *str);
-char	*ft_strcut_gnl(char *str);
-int		ft_strn(char *s);
-char	*ft_strjoin_gnl(char *s1, char *s2);
+/*
+ * === ft_strjoin === *
+ */
+
+char	*ft_strjoin(int size, char **strs, char *sep);
+char	*ft_strjoin_lib(char *s1, char *s2);
+
+/*
+ * === ft_strlen === *
+ */
+
+int		ft_strlen(char *s);
+
+/*
+ * === get_next_line === *
+ */
+
+typedef struct s_gnl
+{
+	char		buf[BUFFER_SIZE + 1];
+	char		*tmp;
+	char		*line;
+	int			r;
+	int			i;
+	int			j;
+}	t_gnl;
+
+char	*gnl(int fd);
 
 #endif

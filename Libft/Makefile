@@ -6,20 +6,20 @@
 #    By: ebarguil <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/11/29 16:06:27 by ebarguil          #+#    #+#              #
-#    Updated: 2021/12/18 17:13:51 by ebarguil         ###   ########.fr        #
+#    Updated: 2021/12/20 10:40:56 by ebarguil         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME	=	libft.a
 
-SRC		=	ft_strlen.c \
-			ft_putchar_fd.c \
+SRC		=	ft_putchar_fd.c \
 			ft_putnbr_fd.c \
 			ft_split.c \
 			ft_split_add.c \
+			ft_strjoin.c \
 			ft_strjoin_lib.c \
-			get_next_line.c \
-			get_next_line_utils.c \
+			ft_strlen.c \
+			gnl.c \
 
 OBJ		=	$(SRC:.c=.o)
 
