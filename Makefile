@@ -6,7 +6,7 @@
 #    By: ebarguil <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/11/29 16:06:27 by ebarguil          #+#    #+#              #
-#    Updated: 2021/12/20 10:15:41 by ebarguil         ###   ########.fr        #
+#    Updated: 2021/12/20 17:02:29 by ebarguil         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -50,7 +50,7 @@ fre		:	fclean f
 
 n		:
 			norminette $(SRC)
-			norminette pipex.h
+			norminette include/pipex.h
 			make -C Libft n
 
 .PHONY	:	all clean fclean re f fre n nf
